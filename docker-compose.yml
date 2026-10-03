@@ -1,0 +1,10 @@
+services:
+  switch-duyetct:
+    image: ghcr.io/tdngan/switch-duyetct:main
+    container_name: switch-duyetct
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      TZ: Asia/Ho_Chi_Minh
+    init: true
