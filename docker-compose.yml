@@ -1,6 +1,6 @@
 services:
   switch-duyetct:
-    image: ghcr.io/tdngan/switch-duyetct:main
+    image: ghcr.io/tdngan/switch-duyetct:1.0.0
     container_name: switch-duyetct
     restart: unless-stopped
     env_file:
